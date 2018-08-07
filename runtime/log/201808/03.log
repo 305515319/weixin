@@ -1,0 +1,2580 @@
+---------------------------------------------------------------
+[ 2018-08-03T09:05:52+08:00 ] 127.0.0.1 GET /
+[ info ] app.com/ [运行时间：0.060076s][吞吐率：16.65req/s] [内存消耗：1,333.02kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:05:55+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.032894s][吞吐率：30.40req/s] [内存消耗：1,399.11kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:05:55+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ info ] app.com/user/login/index.html [运行时间：0.024260s][吞吐率：41.22req/s] [内存消耗：1,390.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Login->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:05:59+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ info ] app.com/user/login/dologin.html [运行时间：0.053672s][吞吐率：18.63req/s] [内存消耗：2,112.37kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'qweqwe',
+  'user_pass' => 'qweqweqwe',
+)
+[ info ] [ RUN ] app\user\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001002s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.009097s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:02+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ info ] app.com/user/login/dologin.html [运行时间：0.049808s][吞吐率：20.08req/s] [内存消耗：2,111.91kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'qweqweqwe',
+  'user_pass' => 'qweqweqwe',
+)
+[ info ] [ RUN ] app\user\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010607s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.007721s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqweqwe' LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:07+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ info ] app.com/user/login/dologin.html [运行时间：0.088065s][吞吐率：11.36req/s] [内存消耗：2,114.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'qweqwe',
+  'user_pass' => 'qweqwe',
+)
+[ info ] [ RUN ] app\user\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019312s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.030922s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.001318s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:07+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.033178s][吞吐率：30.14req/s] [内存消耗：1,395.84kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:06:08+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.027034s][吞吐率：36.99req/s] [内存消耗：1,335.45kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:06:16+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.028894s][吞吐率：34.61req/s] [内存消耗：1,335.46kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:06:17+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.035536s][吞吐率：28.14req/s] [内存消耗：1,370.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:17+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.030660s][吞吐率：32.62req/s] [内存消耗：1,370.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:18+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.030457s][吞吐率：32.83req/s] [内存消耗：1,370.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:06:19+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.027348s][吞吐率：36.57req/s] [内存消耗：1,335.45kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:06:20+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.027467s][吞吐率：36.41req/s] [内存消耗：1,370.69kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:09:37+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.037228s][吞吐率：26.86req/s] [内存消耗：1,537.12kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:37+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.025590s][吞吐率：39.08req/s] [内存消耗：1,335.39kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:38+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.044755s][吞吐率：22.34req/s] [内存消耗：1,395.90kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:38+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.026581s][吞吐率：37.62req/s] [内存消耗：1,335.39kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:39+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.024966s][吞吐率：40.05req/s] [内存消耗：1,335.39kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:39+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.026824s][吞吐率：37.28req/s] [内存消耗：1,370.63kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:09:44+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.021203s][吞吐率：47.16req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:09:46+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.027789s][吞吐率：35.99req/s] [内存消耗：1,370.63kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-08-03T09:20:14+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.036264s][吞吐率：27.58req/s] [内存消耗：1,472.47kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:27:36+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.031964s][吞吐率：31.29req/s] [内存消耗：1,397.66kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:27:36+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.023950s][吞吐率：41.75req/s] [内存消耗：1,337.16kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:27:36+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.023928s][吞吐率：41.79req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:27:37+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.065540s][吞吐率：15.26req/s] [内存消耗：2,263.97kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.020977s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` IS NULL LIMIT 1 [ RunTime:0.000696s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:28:27+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.074486s][吞吐率：13.43req/s] [内存消耗：2,264.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009932s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.020027s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` IS NULL LIMIT 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:28:28+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.058113s][吞吐率：17.21req/s] [内存消耗：2,127.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.021051s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` IS NULL LIMIT 1 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:28:28+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.040135s][吞吐率：24.92req/s] [内存消耗：1,398.30kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:28+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.024085s][吞吐率：41.52req/s] [内存消耗：1,337.72kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:28+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.023566s][吞吐率：42.43req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:29+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.059439s][吞吐率：16.82req/s] [内存消耗：2,127.45kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000996s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.021113s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` IS NULL LIMIT 1 [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:28:50+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.036061s][吞吐率：27.73req/s] [内存消耗：1,398.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:50+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.024532s][吞吐率：40.76req/s] [内存消耗：1,338.03kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:50+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.020619s][吞吐率：48.50req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.027587s][吞吐率：36.25req/s] [内存消耗：1,398.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.025141s][吞吐率：39.78req/s] [内存消耗：1,338.03kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.023228s][吞吐率：43.05req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.024749s][吞吐率：40.41req/s] [内存消耗：1,398.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.023909s][吞吐率：41.83req/s] [内存消耗：1,338.03kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.019788s][吞吐率：50.54req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.024162s][吞吐率：41.39req/s] [内存消耗：1,398.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.024764s][吞吐率：40.38req/s] [内存消耗：1,338.03kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:52+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.020151s][吞吐率：49.63req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:28:58+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.040461s][吞吐率：24.72req/s] [内存消耗：1,290.51kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:05+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.028473s][吞吐率：35.12req/s] [内存消耗：1,290.51kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:06+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.048115s][吞吐率：20.78req/s] [内存消耗：1,290.51kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:06+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.021665s][吞吐率：46.16req/s] [内存消耗：1,290.51kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:06+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.035385s][吞吐率：28.26req/s] [内存消耗：1,290.51kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:19+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.032976s][吞吐率：30.33req/s] [内存消耗：1,370.48kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\user\controller\_dump()[D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php:8]
+---------------------------------------------------------------
+[ 2018-08-03T09:29:25+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.040167s][吞吐率：24.90req/s] [内存消耗：1,366.72kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for session(), called in D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php on line 8 and defined[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\helper.php:294]
+---------------------------------------------------------------
+[ 2018-08-03T09:29:35+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.035868s][吞吐率：27.88req/s] [内存消耗：1,290.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:42+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.037605s][吞吐率：26.59req/s] [内存消耗：1,290.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:29:42+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.038856s][吞吐率：25.74req/s] [内存消耗：1,290.70kb] [文件加载：35]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:30:22+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.042151s][吞吐率：23.72req/s] [内存消耗：1,398.30kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:30:22+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.025219s][吞吐率：39.65req/s] [内存消耗：1,337.72kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:30:22+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.021084s][吞吐率：47.43req/s] [内存消耗：1,064.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T09:30:23+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.069468s][吞吐率：14.40req/s] [内存消耗：2,128.41kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.029958s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000898s ]
+---------------------------------------------------------------
+[ 2018-08-03T09:31:59+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.069096s][吞吐率：14.47req/s] [内存消耗：2,266.16kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010617s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.013808s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000866s ]
+---------------------------------------------------------------
+[ 2018-08-03T14:23:32+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.033877s][吞吐率：29.52req/s] [内存消耗：1,397.73kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T14:23:32+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.025222s][吞吐率：39.65req/s] [内存消耗：1,337.72kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T14:23:46+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.084731s][吞吐率：11.80req/s] [内存消耗：2,267.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002883s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.020584s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2018-08-03T14:26:46+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.033310s][吞吐率：30.02req/s] [内存消耗：1,089.67kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}', expecting variable (T_VARIABLE) or '$'[D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php:30]
+---------------------------------------------------------------
+[ 2018-08-03T14:26:47+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.036676s][吞吐率：27.27req/s] [内存消耗：1,089.67kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}', expecting variable (T_VARIABLE) or '$'[D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php:30]
+---------------------------------------------------------------
+[ 2018-08-03T14:26:48+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.040974s][吞吐率：24.41req/s] [内存消耗：1,088.65kb] [文件加载：32]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}', expecting variable (T_VARIABLE) or '$'[D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php:30]
+---------------------------------------------------------------
+[ 2018-08-03T14:27:15+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.038924s][吞吐率：25.69req/s] [内存消耗：1,399.41kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T14:27:15+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.027629s][吞吐率：36.19req/s] [内存消耗：1,339.23kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-03T14:27:16+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.073016s][吞吐率：13.70req/s] [内存消耗：2,330.86kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=hu7vj1o1emr8pcg95jajpo7gr3',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'info',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\info.html [ array (
+  0 => 'info',
+  1 => 'user_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011908s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_userinfo` [ RunTime:0.019552s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_userinfo` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.000725s ]

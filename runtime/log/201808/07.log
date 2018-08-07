@@ -1,0 +1,1417 @@
+---------------------------------------------------------------
+[ 2018-08-07T09:12:20+08:00 ] 127.0.0.1 GET /
+[ info ] app.com/ [运行时间：0.047658s][吞吐率：20.98req/s] [内存消耗：1,339.16kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:22+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.030223s][吞吐率：33.09req/s] [内存消耗：1,413.10kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:22+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ info ] app.com/user/login/index.html [运行时间：0.024735s][吞吐率：40.43req/s] [内存消耗：1,396.65kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Login->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:27+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.023683s][吞吐率：42.22req/s] [内存消耗：1,413.05kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:27+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ info ] app.com/user/login/index.html [运行时间：0.022372s][吞吐率：44.70req/s] [内存消耗：1,396.65kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\user\controller\Login->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:34+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ info ] app.com/user/login/dologin.html [运行时间：0.062695s][吞吐率：15.95req/s] [内存消耗：2,120.15kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'qweqwe',
+  'user_pass' => 'qweqwe',
+)
+[ info ] [ RUN ] app\user\controller\Login->doLogin[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001629s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.018282s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000659s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:12:34+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.029377s][吞吐率：34.04req/s] [内存消耗：1,556.34kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:34+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.062921s][吞吐率：15.89req/s] [内存消耗：2,205.20kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+  0 => 'weixin_gzh',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009859s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.015540s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_weixin_gzh` WHERE  `user_id` = 1 [ RunTime:0.000701s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:12:37+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.024331s][吞吐率：41.10req/s] [内存消耗：1,409.89kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:12:37+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.061566s][吞吐率：16.24req/s] [内存消耗：2,205.20kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+  0 => 'weixin_gzh',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000809s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.022957s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_weixin_gzh` WHERE  `user_id` = 1 [ RunTime:0.000620s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:13:24+08:00 ] 127.0.0.1 POST /user/weixin/create.html
+[ info ] app.com/user/weixin/create.html [运行时间：0.027789s][吞吐率：35.99req/s] [内存消耗：1,342.17kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->create[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:14:59+08:00 ] 127.0.0.1 POST /user/weixin/create.html
+[ info ] app.com/user/weixin/create.html [运行时间：0.022596s][吞吐率：44.26req/s] [内存消耗：1,342.06kb] [文件加载：37]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'create',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->create[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:15:05+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.070359s][吞吐率：14.21req/s] [内存消耗：2,174.42kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1017',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJt2E469W9pBcpZN7',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008410s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.022207s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '111' LIMIT 1 [ RunTime:0.000690s ]
+[ error ] [8]未定义数组下标: 0[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\db\Builder.php:116]
+---------------------------------------------------------------
+[ 2018-08-07T09:15:08+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.024568s][吞吐率：40.70req/s] [内存消耗：1,070.04kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:15:16+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.059192s][吞吐率：16.89req/s] [内存消耗：2,174.42kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1017',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUdi3tTrAvx5F1zIE',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.019298s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '111' LIMIT 1 [ RunTime:0.000691s ]
+[ error ] [8]未定义数组下标: 0[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\db\Builder.php:116]
+---------------------------------------------------------------
+[ 2018-08-07T09:15:48+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.075025s][吞吐率：13.33req/s] [内存消耗：2,174.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1017',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyVTt7XnTroSMpLXw',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011034s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.020801s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '111' LIMIT 1 [ RunTime:0.000591s ]
+[ error ] [8]未定义数组下标: 0[D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\library\think\db\Builder.php:116]
+---------------------------------------------------------------
+[ 2018-08-07T09:17:07+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.063040s][吞吐率：15.86req/s] [内存消耗：2,094.08kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1017',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJIHfUyBCehkl3WvA',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010507s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.017043s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '111' LIMIT 1 [ RunTime:0.000528s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:17:53+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.072601s][吞吐率：13.77req/s] [内存消耗：2,094.33kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1017',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDLaoenhig45Jh9kO',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009983s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.023018s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '111' LIMIT 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:18:24+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.067488s][吞吐率：14.82req/s] [内存消耗：2,132.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1018',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylWNRGVHR37PgyL5t',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '1111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010149s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.023092s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '1111' LIMIT 1 [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:18:36+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.056956s][吞吐率：17.56req/s] [内存消耗：2,132.12kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '1018',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryK5JWD5RqlYSqRNnO',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'type' => '1',
+  'appid' => '1111',
+  'appsecret' => '111',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001054s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.020155s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = '1111' LIMIT 1 [ RunTime:0.000609s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:21:59+08:00 ] 127.0.0.1 POST /user/weixin/save.html
+[ info ] app.com/user/weixin/save.html [运行时间：0.069725s][吞吐率：14.34req/s] [内存消耗：2,142.05kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'save',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '2850',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXATIVS2UDzhBLAkm',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'name' => '互联八零',
+  'type' => '1',
+  'appid' => 'wxc0f2f696621c0fca',
+  'appsecret' => 'c3441f56efceb0e561d376372e2b7597',
+  'url' => 'http://app.com',
+  'token' => 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl',
+  'key' => '8373a77cfcff07fde5bff010b1ef47e0',
+  'hello' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->save[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001393s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.021349s ]
+[ sql ] [ SQL ] SELECT `id` FROM `myapp_weixin_gzh` WHERE  `user_id` = 1  AND `appid` = 'wxc0f2f696621c0fca' LIMIT 1 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] INSERT INTO `myapp_weixin_gzh` (`user_id` , `name` , `type` , `appid` , `appsecret` , `headpic` , `url` , `token` , `key` , `hello` , `create_time`) VALUES (1 , '互联八零' , 1 , 'wxc0f2f696621c0fca' , 'c3441f56efceb0e561d376372e2b7597' , '/public/data/images/1/ecEtriqfVrpvscTkONQSKZyjFgtGbu.jpg' , 'http://app.com' , 'XGaMAEJDBVBrxeYipgacXHFyGuTiFvnl' , '8373a77cfcff07fde5bff010b1ef47e0' , 1 , '2018-08-07 09:21:59') [ RunTime:0.002743s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:21:59+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.028752s][吞吐率：34.78req/s] [内存消耗：1,410.07kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:21:59+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.064672s][吞吐率：15.46req/s] [内存消耗：2,207.42kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+  0 => 'weixin_gzh',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001044s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.025181s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_weixin_gzh` WHERE  `user_id` = 1 [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:21:59+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.024327s][吞吐率：41.11req/s] [内存消耗：1,070.04kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:22:23+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.028653s][吞吐率：34.90req/s] [内存消耗：1,410.10kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:22:23+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.022468s][吞吐率：44.51req/s] [内存消耗：1,070.13kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:22:23+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.060964s][吞吐率：16.40req/s] [内存消耗：2,205.45kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+  0 => 'weixin_gzh',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.020903s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_weixin_gzh` WHERE  `user_id` = 1 [ RunTime:0.000979s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:24:26+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ info ] app.com/user/center/index.html [运行时间：0.030704s][吞吐率：32.57req/s] [内存消耗：1,410.07kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:24:27+08:00 ] 127.0.0.1 GET /static/user/js/jquery.min.map
+[ info ] app.com/static/user/js/jquery.min.map [运行时间：0.022875s][吞吐率：43.72req/s] [内存消耗：1,070.04kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'user',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:24:27+08:00 ] 127.0.0.1 POST /user/center/manager.html
+[ info ] app.com/user/center/manager.html [运行时间：0.067103s][吞吐率：14.90req/s] [内存消耗：2,350.66kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'center',
+    2 => 'manager',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => '*/*',
+  'origin' => 'http://app.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'model' => 'account',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Center->manager[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Center.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\center\account.html [ array (
+  0 => 'weixin_gzh',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001072s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_weixin_gzh` [ RunTime:0.022331s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_weixin_gzh` WHERE  `user_id` = 1 [ RunTime:0.000835s ]
+---------------------------------------------------------------
+[ 2018-08-07T09:24:33+08:00 ] 127.0.0.1 GET /user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html
+[ info ] app.com/user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html [运行时间：0.029033s][吞吐率：34.44req/s] [内存消耗：1,487.87kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'gzh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'appid' => 'wxc0f2f696621c0fca',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->gzh[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\weixin\gzh.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:25:34+08:00 ] 127.0.0.1 GET /user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html
+[ info ] app.com/user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html [运行时间：0.050729s][吞吐率：19.71req/s] [内存消耗：1,350.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'gzh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'appid' => 'wxc0f2f696621c0fca',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->gzh[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\weixin\gzh.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:25:35+08:00 ] 127.0.0.1 GET /user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html
+[ info ] app.com/user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html [运行时间：0.051703s][吞吐率：19.34req/s] [内存消耗：1,350.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'gzh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'appid' => 'wxc0f2f696621c0fca',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->gzh[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\weixin\gzh.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:36:32+08:00 ] 127.0.0.1 GET /user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html
+[ info ] app.com/user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html [运行时间：0.045942s][吞吐率：21.77req/s] [内存消耗：1,488.24kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'gzh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'appid' => 'wxc0f2f696621c0fca',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->gzh[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\weixin\gzh.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:44:13+08:00 ] 127.0.0.1 GET /user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html
+[ info ] app.com/user/weixin/gzh/id/2/appid/wxc0f2f696621c0fca.html [运行时间：0.031266s][吞吐率：31.98req/s] [内存消耗：1,488.09kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'weixin',
+    2 => 'gzh',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://app.com/user/center/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'pgv_pvi=9327494144; PHPSESSID=7tup1b0ct1drbihebldcit8sh7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'appid' => 'wxc0f2f696621c0fca',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\user\controller\Weixin->gzh[ D:\phpStudy\PHPTutorial\WWW\myapp\application\user\controller\Weixin.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/user\view\weixin\gzh.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:44:14+08:00 ] 127.0.0.1 GET /index.php
+[ info ] app.com/index.php [运行时间：0.028331s][吞吐率：35.30req/s] [内存消耗：1,336.35kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\myapp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'app.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\myapp\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\myapp\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

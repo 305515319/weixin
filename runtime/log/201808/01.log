@@ -1,0 +1,62 @@
+---------------------------------------------------------------
+[ 2018-08-01T09:28:59+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010724s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.013758s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = '13800138001' LIMIT 1 [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2018-08-01T09:41:14+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.010521s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = '13800138001' LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] INSERT INTO `myapp_user` (`user_name` , `user_pass` , `noncestr` , `nick_name` , `create_time`) VALUES ('13800138001' , 'c03ba98ab02d543e129c45c85deceb38' , 'VaZLeE' , 'qweqwe' , '2018-08-01 09:41:14') [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2018-08-01T09:41:57+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010935s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.019999s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = '13800138001' LIMIT 1 [ RunTime:0.000637s ]
+---------------------------------------------------------------
+[ 2018-08-01T09:42:09+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010730s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.019419s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] INSERT INTO `myapp_user` (`user_name` , `user_pass` , `noncestr` , `nick_name` , `create_time`) VALUES ('qweqwe' , '83ce20f7641f832119fa92005d9efc53' , 'ZuhvmV' , 'qweqwe' , '2018-08-01 09:42:09') [ RunTime:0.000634s ]
+---------------------------------------------------------------
+[ 2018-08-01T09:42:09+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ error ] [1]Class 'app\common\controller\Common' not found
+---------------------------------------------------------------
+[ 2018-08-01T09:43:54+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ error ] [1]Class 'app\common\controller\Common' not found
+---------------------------------------------------------------
+[ 2018-08-01T09:43:55+08:00 ] 127.0.0.1 GET /user/login/index.html
+[ error ] [1]Class 'app\common\controller\Common' not found
+---------------------------------------------------------------
+[ 2018-08-01T10:12:31+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ error ] [1]Class 'app\user\controller\Db' not found
+---------------------------------------------------------------
+[ 2018-08-01T10:13:01+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011108s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.012397s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000583s ]
+[ error ] [2]Illegal string offset 'noncestr'
+---------------------------------------------------------------
+[ 2018-08-01T10:13:45+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011118s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.011831s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2018-08-01T10:14:00+08:00 ] 127.0.0.1 POST /user/login/dologin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010390s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.012447s ]
+[ sql ] [ SQL ] SELECT * FROM `myapp_user` WHERE  `user_name` = 'qweqwe' LIMIT 1 [ RunTime:0.000575s ]
+---------------------------------------------------------------
+[ 2018-08-01T10:20:57+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ error ] [8]未定义变量: info
+---------------------------------------------------------------
+[ 2018-08-01T10:22:18+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ error ] [1]Call to undefined function get_imgurl()
+---------------------------------------------------------------
+[ 2018-08-01T10:22:18+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ error ] [1]Call to undefined function get_imgurl()
+---------------------------------------------------------------
+[ 2018-08-01T10:22:19+08:00 ] 127.0.0.1 GET /user/center/index.html
+[ error ] [1]Call to undefined function get_imgurl()

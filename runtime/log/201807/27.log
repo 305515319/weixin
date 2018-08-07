@@ -1,0 +1,65 @@
+---------------------------------------------------------------
+[ 2018-07-27T17:43:31+08:00 ] 127.0.0.1 GET /user/register
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T17:59:51+08:00 ] 127.0.0.1 GET /user/register/index
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T17:59:52+08:00 ] 127.0.0.1 GET /user/register/index
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T17:59:53+08:00 ] 127.0.0.1 GET /user/register/index
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T17:59:53+08:00 ] 127.0.0.1 GET /user/register/index
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T17:59:53+08:00 ] 127.0.0.1 GET /user/register/index
+[ error ] [0]模板文件不存在:D:\phpStudy\WWW\myapp\public/../application/user\view\register\index.html
+---------------------------------------------------------------
+[ 2018-07-27T18:05:52+08:00 ] 127.0.0.1 GET /user/register/doreg
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-27T18:06:01+08:00 ] 127.0.0.1 GET /user/register/doReg
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-27T18:10:35+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [8]未定义变量: ret
+---------------------------------------------------------------
+[ 2018-07-27T18:11:21+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [4096]Object of class think\Request could not be converted to string
+---------------------------------------------------------------
+[ 2018-07-27T18:13:12+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [8]未定义变量: ret
+---------------------------------------------------------------
+[ 2018-07-27T18:13:23+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [8]未定义变量: ret
+---------------------------------------------------------------
+[ 2018-07-27T18:23:02+08:00 ] 127.0.0.1 GET /user/register/doreg
+[ error ] [0]variable type error： array
+---------------------------------------------------------------
+[ 2018-07-27T18:25:47+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [1]Class 'app\user\controller\Db' not found
+---------------------------------------------------------------
+[ 2018-07-27T18:26:08+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'myapp'
+---------------------------------------------------------------
+[ 2018-07-27T18:28:42+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008034s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.019960s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list'
+---------------------------------------------------------------
+[ 2018-07-27T18:29:04+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002274s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.025758s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause'
+---------------------------------------------------------------
+[ 2018-07-27T18:29:33+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002242s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.024212s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = '2' LIMIT 1 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-07-27T18:33:33+08:00 ] 127.0.0.1 POST /user/register/doreg.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002495s ] mysql:host=127.0.0.1;port=3306;dbname=myapp;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `myapp_user` [ RunTime:0.029067s ]
+[ sql ] [ SQL ] SELECT `user_id` FROM `myapp_user` WHERE  `user_name` = '2' LIMIT 1 [ RunTime:0.000581s ]
