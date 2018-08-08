@@ -6,7 +6,7 @@
 </div>
 
 {foreach $weixin_gzh as $val}
-	<a href="{:url('user/weixin/gzh',['id'=>$val['id'],'appid'=>$val['appid']])}" class="weixin-gzg-list">
+	<a href="{:url('user/weixin/gzh',['appid'=>$val['appid']])}" class="weixin-gzg-list">
         <div class="weixin-icon"><img src="__ROOT__/images/toweixin.png"></div>
         <div>{$val['name']}</div>
 	</a>

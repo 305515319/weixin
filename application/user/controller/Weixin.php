@@ -1,15 +1,44 @@
 <?php
 namespace app\user\controller;
+use app\user\model\Weixinapi;
 use think\Db;
 class Weixin extends Pub
 {
+    private $appid;
+    private $appsecret;
+    private $token;
+    private $key;
+    public function _initialize()
+    {
+        parent::_initialize();
+        $wx = Db::name('weixin_gzh')->where([
+            'user_id'   =>session('user_auth.uid'),
+            'appid'     =>input('appid')
+        ])->cache()->find();
+        if(!$wx) $this->error('公众号不存在');
+        $this->assign('appid',$wx['appid']);
+        $this->appid = $wx['appid'];
+        $this->appsecret = $wx['appsecret'];
+        $this->token = $wx['token'];
+        $this->key = $wx['key'];
+    }
+
     //微信公众号管理首页
     public function gzh()
     {
+
+        echo $this->appid;
         return view();
     }
 
-
+    /*
+     * 微信网页授权
+     * */
+    public function authorized()
+    {
+        $wxuser = Weixinapi::openid($this->appid,$this->appsecret);
+        p($wxuser);
+    }
     public function create()
     {
         return ['errcode'=>1,'errmsg'=>'success','data'=>[
