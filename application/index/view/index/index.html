@@ -5,32 +5,136 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>微信1234（wx1234.cn）-微信公众号营销小程序开发微信吸粉支付宝小程序开发生活号运营首选微信1234第三方平台！</title>
+    <title>微1234（wx1234.cn）-微信公众号营销小程序开发微信吸粉支付宝小程序开发生活号运营首选微信1234第三方平台！</title>
     <meta name="keywords" content="微信营销,微信公众平台,公众号第三方平台,微信投票,微网站,微信商城,分销商城,微信直播,微信交友,微信会员卡,微信卡券,微信1234,公众号交友,公众号直播,微信小程序,小程序开发,微信小程序第三方平台">
-    <meta name="description" content="微信1234（wx1234.cn）,微信公众号第三方平台,微信营销平台,免费且功能强大的微信第三方公众号营销服务平台提供微信投票，微信交友，微信直播，微信会员卡,微信卡券，微信三级分销商城，微网站，微信小程序第三方开发平台，一站式建站服务平台">
+    <meta name="description" content="微 1234（wx1234.cn）,微信公众号第三方平台,微信营销平台,免费且功能强大的微信第三方公众号营销服务平台提供微信投票，微信交友，微信直播，微信会员卡,微信卡券，微信三级分销商城，微网站，微信小程序第三方开发平台，一站式建站服务平台">
     {load href="/static/user/js/jquery.min.js" /}
     {load href="/static/js/bootstrap.min.js" /}
     {load href="/static/css/bootstrap.min.css" /}
     <style type="text/css">
-        body{background-color: }
         .header{
             width: 100%;
             height: 80px;
             line-height: 80px;
             background-color: rgba(255,255,255,.98);
             border-bottom: 1px solid #f1f1f1;
-            font-size: 18px;
+            font-size: 16px;
             border-top:4px solid #44B549;
         }
         .header a{color:#000;text-decoration: none;}
         .margin-center{margin: 0 auto;}
-        .w1200{width: 1200px}
+        .w1200{width: 1000px}
         .left{float: left}
         .logo{height:80px;width: 300px;color:#44B549;font-size: 40px;font-family: '华文琥珀'}
-        .nav ul{margin: 0;padding: 0}
+        .nav ul{margin: 0;padding: 0;}
         .nav ul li{
+            list-style: none;
             float: left;
             width: 150px;
+        }
+        .relative{
+            position: relative;
+        }
+        .banner{
+            background: transparent url('https://res.wx.qq.com/mpres/htmledition/images/bg/bg_login_banner_v53a7b38.jpg') no-repeat center center;
+            background-color: #090b1a;
+            height: 460px;
+        }
+        .login{
+            position: absolute;
+            top:30px;
+            right: 130px;
+            height: 400px;
+            width: 400px;
+            background-color: #fff;
+            border-radius: 2px;
+        }
+        .qrcode{
+            width: 120px;
+            height: 150px;
+            background-color: #fff;
+            position: absolute;
+            right: 0;
+            top:30px;
+            border-radius: 2px;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 8px;
+        }
+        .login-div{
+            margin: 50px 30px;
+        }
+        .login-div h3{
+            margin-bottom: 40px;
+        }
+        .login-div input{
+            outline: none;
+            height: 45px;
+            line-height: 45px;
+            padding-left: 5px;
+            width: 340px;
+            border:1px #ccc solid;
+            border-radius: 2px;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        .icon{
+            background: transparent url('https://res.wx.qq.com/mpres/zh_CN/htmledition/comm_htmledition/style/page/page_login_z3b5429.png') no-repeat center center;
+        }
+        .login-a-btn{
+            display: block;
+            width: 120px;
+            height: 33px;
+            line-height: 35px;
+            color: #fff;
+            text-align: center;
+            background-color: #44b549;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .login-a-btn:hover{
+            background-color: #2f9833;
+            background-image: linear-gradient(to bottom,#2f9833 0,#2f9833 100%);
+            border-color: #2f9833;
+            color: #fff;
+            text-decoration: none;
+        }
+        .notice{
+            height: 50px;
+            line-height: 50px;
+            border:1px #ccc solid;
+            margin-top: 30px;
+            padding-left: 20px;
+        }
+        .intro{
+            margin-top: 30px;
+            overflow: hidden;
+        }
+        .media-box{
+            border:1px #ccc solid;
+            border-radius: 3px;
+            width: 240px;
+            height: 300px;
+            float: left;
+            margin-right: 12px;
+        }
+        .none-mg{
+            margin-right: 0;
+        }
+        .intro h3{
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .footer{
+            height: 50px;
+            line-height: 50px;
+            border-top:1px #ccc solid;
+            margin-top: 50px;
+            color:#666;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -42,13 +146,66 @@
         <div class="nav">
             <ul>
                 <li><a href="/">首页</a></li>
-                <li><a href="{:url('index/intro')}" target="_blank">介绍</a></li>
+                <li><a href="{:url('index/intro')}" target="_blank">联系我们</a></li>
                 <li><a href="{:url('user/login/index')}" target="_blank">登录</a></li>
-                <li><a href="{:url('user/center/index')}" target="_blank">注册</a></li>
+                <li><a href="{:url('user/register/index')}" target="_blank">注册</a></li>
             </ul>
         </div>
     </div>
+</div>
 
+<div class="banner">
+    <div class="margin-center w1200 relative">
+        <div class="login">
+            <div class="login-div">
+                <h3>登录</h3>
+                <div class="login-box"><label><span class="icon user"></span><input type="text" name="user-name" placeholder="手机号/邮箱地址"> </label></div>
+                <div class="login-box"><label><span class="icon pass"></span><input type="password" name="user-pass" placeholder="密码"> </label></div>
+                <div class="login-box"><a href="javascript:;" class="login-a-btn">登录</a> </div>
+                <div class="login-box">
+                    <a href="{:url('user/register/index')}" target="_blank" >立即注册</a> &nbsp;&nbsp;&nbsp;&nbsp;|
+                    &nbsp;&nbsp;&nbsp;&nbsp;<a href="{:url('user/register/forgot')}" target="_blank" >找回密码</a></div>
+            </div>
+        </div>
+        <div class="qrcode">
+            <img src="__ROOT__/static/images/qrcode_for_gh_5bd0668a8df2_258.jpg" width="100px" height="100px"><br>
+            扫描并关注<br>
+            微信公众平台
+        </div>
+    </div>
+</div>
+
+<div class="notice margin-center w1200">
+    <div>系统公告： <a href="javascript:;" target="">公众号文章图片跳转小程序及图片跳转链接的调整通知....</a></div>
+</div>
+
+<div class="margin-center w1200">
+
+    <div class="intro">
+        <h3>服务</h3>
+        <!--<div class="media-box">-->
+            <!--<img src="__ROOT__/static/images/weixin.png" width="100px" height="100px">-->
+        <!--</div>-->
+        <!--<div class="media-box">-->
+            <!--<img src="__ROOT__/static/images/wxmini.png" width="100px" height="100px">-->
+        <!--</div>-->
+        <!--<div class="media-box">-->
+            <!--<img src="__ROOT__/static/images/toalipay.png" width="100px" height="100px">-->
+        <!--</div>-->
+        <!--<div class="media-box none-mg">-->
+            <!--支付宝小程序-->
+        <!--</div>-->
+        <div>
+            <p>微信公众号营销</p>
+            <p>微信小程序模版</p>
+            <p>支付宝小程序</p>
+            <p>支付宝生活号</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="copyright margin-center w1200">Copyright © 2018 Wx1234. All Rights Reserved.</div>
 </div>
 </body>
 </html>
