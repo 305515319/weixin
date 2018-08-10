@@ -5,6 +5,6 @@ class Index
 {
     public function index()
     {
-       return view();
+       return redirect('user/index/index');
     }
 }
