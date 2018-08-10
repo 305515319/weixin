@@ -26,8 +26,6 @@ class Weixin extends Pub
     //微信公众号管理首页
     public function gzh()
     {
-
-        echo $this->appid;
         return view();
     }
 
@@ -39,6 +37,14 @@ class Weixin extends Pub
         $wxuser = Weixinapi::openid($this->appid,$this->appsecret);
         p($wxuser);
     }
+    /*
+     * 自定义菜单
+     * */
+    public function menu()
+    {
+
+    }
+
     public function create()
     {
         return ['errcode'=>1,'errmsg'=>'success','data'=>[
