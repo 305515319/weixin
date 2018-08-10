@@ -19,7 +19,7 @@
     display: inline-block;
     width:100px;
 }
-.reg-div input[name='username'],input[name='email'],input[name='password'],input[name='repassword']{
+.reg-div input[name='username'],input[name='email'],input[name='password'],input[name='newpassword'],input[name='repassword']{
     outline: none;
     height: 35px;
     line-height: 35px;
