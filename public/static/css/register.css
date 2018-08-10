@@ -1,0 +1,36 @@
+.register{
+    border:1px #ccc solid;
+    border-radius: 5px;
+    padding:20px;
+    margin-top: 30px;
+}
+.reg-div{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.reg-div label{
+    font-weight: normal;
+}
+.reg-div a:link{
+    text-decoration: none;
+}
+.reg-txt{
+    display: inline-block;
+    width:100px;
+}
+.reg-div input[name='username'],input[name='email'],input[name='password'],input[name='repassword']{
+    outline: none;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 5px;
+    width: 340px;
+    border:1px #ccc solid;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.agree{
+    margin-bottom: 10px;
+}
+.reg-err-tip{display: none}
