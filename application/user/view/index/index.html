@@ -5,11 +5,12 @@
         <div class="login">
             <div class="login-div">
                 <h3>登录</h3>
+                <div class="err-tip"></div>
                 <div class="login-box"><label><span class="icon user"></span><input type="text" name="user-name" placeholder="手机号/邮箱地址"> </label></div>
                 <div class="login-box"><label><span class="icon pass"></span><input type="password" name="user-pass" placeholder="密码"> </label></div>
                 <div class="login-box"></div>
                 <div class="login-box">
-                    <a href="javascript:;" class="login-a-btn">登录</a>
+                    <a href="javascript:;" class="login-a-btn" onclick="login()">登录</a>
                     <a href="{:url('user/register/forgot')}" target="_blank" >找回密码</a></div>
             </div>
         </div>

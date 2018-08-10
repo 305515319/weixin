@@ -8,7 +8,9 @@ class Pub extends Controller
     public function _initialize()
     {
         parent::_initialize();
-        if(!$this->is_login()) $this->redirect('user/login/index');
+        $isLogin = $this->is_login();
+        if(!$isLogin) $this->redirect('index/index');
+        $this->assign('islogin',$isLogin);
     }
     /*
      * 检查用户是否登录

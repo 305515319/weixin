@@ -30,6 +30,12 @@ class Login extends Controller
         return ['errcode'=>1,'errmsg'=>'登录成功'];
     }
 
+    public function logout()
+    {
+        session("user_auth",null);
+        session("user_auth_sign",null);
+        return redirect("index/index");
+    }
 
 
 }
