@@ -13,21 +13,22 @@
     {load href="/static/css/bootstrap.min.css" /}
     {load href="/static/css/index.css" /}
     {load href="/static/css/center.css" /}
+    {load href="/static/css/register.css" /}
 </head>
 <body>
 
 <div class="header">
     <div class="margin-center w1200">
-        <div class="logo left"><a href="/"><img src="__ROOT__/static/images/logo.png"></a></div>
+        <div class="logo left"><a href="/"><img src="__ROOT__/static/images/logo.png" style="vertical-align: text-bottom"></a></div>
         <div class="nav">
             <ul>
-                <li><a href="/" target="_blank">首页</a></li>
+                <li><a href="/">首页</a></li>
                 {if ($islogin)}
-                <li><a href="{:url('user/center/index')}" target="_blank">会员中心</a></li>
-                <li><a href="{:url('user/login/logout')}" target="_blank">退出</a></li>
+                <li><a href="{:url('user/center/index')}">会员中心</a></li>
+                <li><a href="{:url('user/login/logout')}">退出</a></li>
                 {else}
-                <li><a href="{:url('user/index/index')}" target="_blank">登录</a></li>
-                <li><a href="{:url('user/register/index')}" target="_blank">注册</a></li>
+                <li><a href="{:url('user/index/index')}">登录</a></li>
+                <li><a href="{:url('user/register/index')}">注册</a></li>
                 {/if}
             </ul>
         </div>

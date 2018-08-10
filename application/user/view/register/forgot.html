@@ -1,0 +1,72 @@
+{include file="common/header"}
+<div class="margin-center w1200">
+    <div class="register">
+        <div class="err-tip reg-err-tip err-user"><span class="reg-txt">&nbsp;</span><span id="err-username"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">用户名：</span><input type="text" name="username" placeholder="要找回的登录账号" onblur="inputBlur('username')" onkeyup="value=value.replace(/[^\w\.\@\/]/ig,'')"></label>
+        </div>
+
+        <div class="err-tip  reg-err-tip err-email"><span class="reg-txt">&nbsp;</span><span id="err-mail"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">邮箱地址：</span><input type="text" name="email" placeholder="注册时填写的邮箱地址" onblur="inputBlur('email')" onkeyup="value=value.replace(/[^\w\.\@\/]/ig,'')"></label>
+        </div>
+
+        <div class="err-tip  reg-err-tip err-res"><span class="reg-txt">&nbsp;</span><span id="err-result"></span></div>
+        <div class="reg-div"><span class="reg-txt">&nbsp;</span><a href="javascript:;"  class="login-a-btn"  onclick="doReg()">找回密码</a></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function doReg(){
+        var usernameObj = $("input[name='username']"),
+            emailObj = $("input[name='email']"),
+            username = usernameObj.val(),
+            email = emailObj.val(),
+            mail = /\w+[@]{1}\w+[.]\w+/,
+            json = {
+                "username":username,
+                "email":email
+            };
+        if(username == ""){
+            $(".err-user").show();$("#err-username").html("请输入账号");
+            usernameObj.focus().css("border","1px #f00 solid");
+        } else if(username.length < 2 || username.length >= 10) {
+            $(".err-user").show();$("#err-username").html("账号长度不符合规则");
+            usernameObj.focus().css("border","1px #f00 solid");
+        } else if(email == "") {
+            $(".err-email").show();$("#err-mail").html("请输入Email地址");
+            emailObj.focus().css("border","1px #f00 solid");
+        } else if(!mail.test(email)) {
+            $(".err-email").show();$("#err-mail").html("Email地址不正确");
+            emailObj.focus().css("border","1px #f00 solid");
+        } else {
+            $.ajax({
+                method:"POST",
+                url:"{:url('user/register/doforgot')}",
+                data:json,
+                dataType:"json",
+                success:function (res) {
+                    if(res.errcode == "1") {
+                        alert("新密码已发送至您的邮箱，注意查收！");
+                        window.location.href="{:url('user/index/index')}";
+                    }else {
+                        $(".err-res").show();$("#err-result").html(res.errmsg);
+                    }
+                }
+            });
+        }
+    }
+    function inputBlur(objName){
+        var val = $("input[name='"+objName+"']").val();
+        if(objName == "username" && val) {
+            $(".err-user").hide();$(".err-username").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        } else if(objName == "email" && val) {
+            $(".err-email").hide();$(".err-mail").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        }
+    }
+
+</script>
+
+{include file="common/footer"}

@@ -1,37 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>用户注册</title>
-    {load href="/static/user/js/jquery.min.js" /}
-</head>
-<body>
-<div>用户名：<input type="text" name="username" placeholder="手机号或邮箱"></div>
-<div>密码：<input type="password" name="password"></div>
-<div>确认密码：<input type="password" name="repassword"></div>
-<div><input type="button" value="注册" onclick="doReg()"> </div>
+{include file="common/header"}
+<div class="margin-center w1200">
+    <div class="register">
+        <div class="err-tip reg-err-tip err-user"><span class="reg-txt">&nbsp;</span><span id="err-username"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">用户名：</span><input type="text" name="username" placeholder="手机号或邮箱" onblur="inputBlur('username')" onkeyup="value=value.replace(/[^\w\.\@\/]/ig,'')"></label>
+        </div>
+
+        <div class="err-tip  reg-err-tip err-email"><span class="reg-txt">&nbsp;</span><span id="err-mail"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">邮箱地址：</span><input type="text" name="email" placeholder="用于激活账号/找回密码" onblur="inputBlur('email')" onkeyup="value=value.replace(/[^\w\.\@\/]/ig,'')"></label>
+        </div>
+
+
+        <div class="err-tip  reg-err-tip err-pass"><span class="reg-txt">&nbsp;</span><span id="err-password"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">密 码：</span><input type="password" name="password" placeholder="密码" onblur="inputBlur('password')"></label>
+        </div>
+
+        <div class="err-tip  reg-err-tip err-repass"><span class="reg-txt">&nbsp;</span><span id="err-repassword"></span></div>
+        <div class="reg-div">
+            <label><span class="reg-txt">确认密码：</span><input type="password" name="repassword" placeholder="确认密码" onblur="inputBlur('repassword')"></label>
+        </div>
+
+        <div class="err-tip  reg-err-tip err-ag"><span class="reg-txt">&nbsp;</span><span id="err-agree"></span></div>
+        <div class="reg-div agree">
+            <label><span class="reg-txt">&nbsp;</span><input type="checkbox" name="agree" value="1">我同意并遵守<a href="javascript:;">《Wx1234平台协议》</a></label>
+        </div>
+        <div class="reg-div"><span class="reg-txt">&nbsp;</span><a href="javascript:;"  class="login-a-btn"  onclick="doReg()">注册</a></div>
+    </div>
+</div>
+
 <script type="text/javascript">
     function doReg(){
-        var json = {
-            "username":$("input[name='username']").val(),
-            "password":$("input[name='password']").val(),
-            "repassword":$("input[name='repassword']").val()
+        var usernameObj = $("input[name='username']"),
+            emailObj = $("input[name='email']"),
+            passwordObj = $("input[name='password']"),
+            repasswordObj = $("input[name='repassword']"),
+            agree = $("input[name='agree']").is(":checked"),
+            username = usernameObj.val(),
+            email = emailObj.val(),
+            passwowrd = passwordObj.val(),
+            repassword = repasswordObj.val(),
+            mail = /\w+[@]{1}\w+[.]\w+/,
+            json = {
+                "username":username,
+                "email":email,
+                "password":passwowrd,
+                "repassword":repassword
         };
-        $.ajax({
-            method:"POST",
-            url:"{:url('user/register/doreg')}",
-            data:json,
-            dataType:"json",
-            success:function (res) {
-                if(res.errcode == "1") {
-                    window.location.href="{:url('user/login/index')}";
-                }else {
-                    alert(res.errmsg);
+        if(username == ""){
+            $(".err-user").show();$("#err-username").html("请输入账号");
+            usernameObj.focus().css("border","1px #f00 solid");
+        } else if(username.length < 2 || username.length >= 10) {
+            $(".err-user").show();$("#err-username").html("账号长度不符合规则");
+            usernameObj.focus().css("border","1px #f00 solid");
+        } else if(email == "") {
+            $(".err-email").show();$("#err-mail").html("请输入Email地址");
+            emailObj.focus().css("border","1px #f00 solid");
+        } else if(!mail.test(email)) {
+            $(".err-email").show();$("#err-mail").html("Email地址不正确");
+            emailObj.focus().css("border","1px #f00 solid");
+        } else if(passwowrd == "") {
+            $(".err-pass").show();$("#err-password").html("请输入密码");
+            passwordObj.focus().css("border","1px #f00 solid");
+        } else if(passwowrd.length < 6 ) {
+            $(".err-pass").show();$("#err-password").html("请输入6位以上的密码");
+            passwordObj.focus().css("border","1px #f00 solid");
+        } else if(repassword != passwowrd) {
+            $(".err-repass").show();$("#err-repassword").html("两次密码输入不一致");
+            repasswordObj.focus().css("border","1px #f00 solid");
+        } else if(!agree) {
+            $(".err-ag").show();$("#err-agree").html("请阅读并遵守平台相关协议");
+        } else {
+            $.ajax({
+                method:"POST",
+                url:"{:url('user/register/doreg')}",
+                data:json,
+                dataType:"json",
+                success:function (res) {
+                    if(res.errcode == "1") {
+                        alert("恭喜您，注册成功");
+                        window.location.href="{:url('user/center/index')}";
+                    }else {
+                        alert(res.errmsg);
+                    }
                 }
-
-            }
-        });
+            });
+        }
     }
+    function inputBlur(objName){
+        var val = $("input[name='"+objName+"']").val();
+        if(objName == "username" && val) {
+            $(".err-user").hide();$(".err-username").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        } else if(objName == "email" && val) {
+            $(".err-email").hide();$(".err-mail").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        } else if(objName == "password" && val) {
+            $(".err-pass").hide();$(".err-password").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        } else if(objName == "repassword" && val) {
+            $(".err-repass").hide();$(".err-repassword").html("");
+            $("input[name='"+objName+"']").css("border","1px #ccc solid");
+        }
+    }
+
 </script>
-</body>
-</html>
+
+{include file="common/footer"}
