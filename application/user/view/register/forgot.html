@@ -25,7 +25,8 @@
             mail = /\w+[@]{1}\w+[.]\w+/,
             json = {
                 "username":username,
-                "email":email
+                "email":email,
+                "token":"{$token}"
             };
         if(username == ""){
             $(".err-user").show();$("#err-username").html("请输入账号");

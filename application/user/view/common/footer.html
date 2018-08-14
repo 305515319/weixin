@@ -8,7 +8,7 @@ function login(){
         password = $("input[name='user-pass']"),
         user_name = username.val(),
         user_pass = password.val(),
-        json = {"user_name":user_name,"user_pass":user_pass};
+        json = {"user_name":user_name,"user_pass":user_pass,"token":"{$token}"};
     if(user_name == ""){
         $(".err-tip").html("你还没有输入账号");
         username.focus();

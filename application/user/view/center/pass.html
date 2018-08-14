@@ -31,7 +31,8 @@
             json = {
                 "password":passwowrd,
                 "newpassword":newpasswowrd,
-                "repassword":repassword
+                "repassword":repassword,
+                "token":"{$token}"
             };
         if(passwowrd == "") {
             $(".err-pass").show();$("#err-password").html("请输入原始密码");

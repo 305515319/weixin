@@ -1,18 +1,8 @@
 <?php
 namespace app\user\controller;
-use think\Controller;
 use think\Db;
-class Register extends Controller
+class Register extends Pub
 {
-    public function __construct()
-    {
-        parent::__construct();
-        $user_auth      = session('user_auth');
-        $user_auth_sign = session('user_auth_sign');
-        $isLogin = $user_auth_sign == data_signature($user_auth) ? $user_auth['uid'] : 0;
-        $this->assign('islogin',$isLogin);
-    }
-
     public function index()
 	{
 		return view();
@@ -28,10 +18,12 @@ class Register extends Controller
         $email          = input('email');
         $password       = input('password');
         $repassword     = input('repassword');
+        $token          = input('token');
         $noncestr       = random(6);
         if(!request()->isAjax())                                          return ['errcode'=>0,'errmsg'=>'请求类型错误'];
-        if(!$username || !$password || !$repassword)                      return ['errcode'=>0,'errmsg'=>'缺少必要参数'];
+        if(!$username || !$password || !$repassword || !$token)           return ['errcode'=>0,'errmsg'=>'缺少必要参数'];
         if($repassword != $password)                                      return ['errcode'=>0,'errmsg'=>'两次密码输入不一致'];
+        if(!verifyToken($token))                                          return ['errcode'=>0,'errmsg'=>'token认证失败'];
         if(Db::name('user')->where('user_name',$username)->value('user_id')) return ['errcode'=>0,'errmsg'=>'用户已存在'];
         if(Db::name('user')->where('user_email',$email)->value('user_id')) return ['errcode'=>0,'errmsg'=>'Email已被注册'];
 
@@ -57,8 +49,10 @@ class Register extends Controller
     {
         $username = input('username');
         $email = input('email');
+        $token = input('token');
         if(!request()->isAjax())                                          return ['errcode'=>0,'errmsg'=>'请求类型错误'];
-        if(!$username || !$email)                                         return ['errcode'=>0,'errmsg'=>'缺少必要参数'];
+        if(!$username || !$email || !$token)                              return ['errcode'=>0,'errmsg'=>'缺少必要参数'];
+        if(!verifyToken($token))                                          return ['errcode'=>0,'errmsg'=>'token认证失败'];
         $user = Db::name('user')->where('user_name',$username)->field('user_id,user_email')->find();
         if(!$user['user_id'])                                             return ['errcode'=>0,'errmsg'=>'用户不存在'];
         if(!$user['user_email'])                                          return ['errcode'=>0,'errmsg'=>'该账号未设置Email，请联系客服 q'];

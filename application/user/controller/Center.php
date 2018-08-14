@@ -52,11 +52,13 @@ class Center extends Pub
         $password = input('password');
         $newpassword = input('newpassword');
         $repassword  = input('repassword');
+        $token    = input('token');
         $user_id = session('user_auth.uid');
         if(!request()->isAjax())        return ['errcode'=>0,'errmsg'=>'请求方式错误'];
-        if(!$password || !$newpassword || !$repassword)
+        if(!$password || !$newpassword || !$repassword || !$token)
                                         return ['errcode'=>0,'errmsg'=>'缺少必要参数'];
         if($repassword != $newpassword) return ['errcode'=>'-1','errmsg'=>'两次密码不一致'];
+        if(!verifyToken($token))        return ['errcode'=>0,'errmsg'=>'token认证失败'];
         $noncestr = Db::name('user')->where('user_id',$user_id)->value('noncestr');
         $pass = encrypt_password($password,$noncestr);
         $user = Db::name('user')->where(['user_id'=>$user_id,'user_pass'=>$pass])->value('user_id');
