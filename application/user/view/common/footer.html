@@ -16,6 +16,7 @@ function login(){
         $(".err-tip").html("你还没有输入密码");
         password.focus();
     } else {
+        $(".disable-btn").show();
         $.ajax({
             method:"POST",
             url:"{:url('user/login/doLogin')}",
@@ -27,6 +28,7 @@ function login(){
                 }else {
                     $(".err-tip").html(res.errmsg);
                 }
+                $(".disable-btn").hide();
             }
         })
     }

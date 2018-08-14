@@ -214,3 +214,10 @@ function sendMail($tomail,$content,$title='来自Wx1234.cn站点的一封邮件'
         return false;
     }
 }
+
+/*
+ * 生成TOKEN
+ * */
+function token(){
+    return md5('www.wx1234.cn',time());
+}

@@ -40,6 +40,7 @@
             $(".err-email").show();$("#err-mail").html("Email地址不正确");
             emailObj.focus().css("border","1px #f00 solid");
         } else {
+            $(".disable-btn").show();
             $.ajax({
                 method:"POST",
                 url:"{:url('user/register/doforgot')}",
@@ -52,6 +53,7 @@
                     }else {
                         $(".err-res").show();$("#err-result").html(res.errmsg);
                     }
+                    $(".disable-btn").hide();
                 }
             });
         }

@@ -12,11 +12,15 @@
 .w1200{width: 1000px}
 .left{float: left}
 .logo{height:80px;width: 300px;color:#44B549;font-size: 40px;font-family: '华文琥珀'}
-.nav ul{margin: 0;padding: 0;overflow: hidden}
+.nav ul{margin: 0;padding: 0;overflow: hidden;}
 .nav ul li{
     list-style: none;
-    float: left;
+    float: right;
     width: 150px;
+    text-align: right;
+}
+.nav ul li a:hover{
+    color:#0bb20c;
 }
 .relative{
     position: relative;
@@ -29,9 +33,9 @@
 .login{
     position: absolute;
     top:30px;
-    right: 130px;
+    right: 0px;
     height: 300px;
-    width: 400px;
+    width: 350px;
     background-color: #fff;
     border-radius: 2px;
 }
@@ -40,7 +44,7 @@
     height: 150px;
     background-color: #fff;
     position: absolute;
-    right: 0;
+    right: -130px;
     top:30px;
     border-radius: 2px;
     text-align: center;
@@ -58,7 +62,7 @@
     height: 45px;
     line-height: 45px;
     padding-left: 5px;
-    width: 340px;
+    width: 280px;
     border:1px #ccc solid;
     border-radius: 2px;
     margin-bottom: 20px;
@@ -151,9 +155,11 @@
     top:0;
     left:0;
     display: none;
+    z-index: 99;
 }
 .loading{
     position: absolute;
     top: 50% ;
     left: 50%;
+    display: none;
 }

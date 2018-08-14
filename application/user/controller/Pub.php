@@ -9,8 +9,10 @@ class Pub extends Controller
     {
         parent::_initialize();
         $isLogin = $this->is_login();
-        if(!$isLogin) $this->redirect('index/index');
         $this->assign('islogin',$isLogin);
+        $this->assign('token',token());
+        $ctrl = $this->request->controller();
+        if(!$isLogin && $ctrl!=='Index' && $ctrl!=='Register' && $ctrl!=='Login') $this->redirect('index/index');
     }
     /*
      * 检查用户是否登录
