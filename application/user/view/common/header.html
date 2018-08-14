@@ -24,13 +24,14 @@
             <ul>
 
                 {if ($islogin)}
-                <li>
-                    <a href="{:url('user/center/index')}">会员中心</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="{:url('user/login/logout')}">退出</a>
-                </li>
-
+                    <li><a href="{:url('user/center/wx')}" title="微信公众号"  {if $action == 'wx'} class="active" {/if}>微信公众号</a></li>
+                    <li><a href="{:url('user/center/wxapp')}" title="微信小程序" {if $action == 'wxapp'} class="active" {/if}>微信小程序</a></li>
+                    <li><a href="{:url('user/center/ali')}"  title="支付宝生活号" {if $action == 'ali'} class="active" {/if}>支付宝生活号</a></li>
+                    <li><a href="{:url('user/center/aliapp')}" title="支付宝小程序" {if $action == 'aliapp'} class="active" {/if} >支付宝小程序</a></li>
+                    <li><a href="{:url('user/center/index')}" title="会员中心" {if $action == 'index'} class="active" {/if}>会员中心</a></li>
+                    <li><a href="{:url('user/login/logout')}">安全退出</a></li>
                 {else}
-                <li><a href="{:url('user/register/index')}">立即注册</a></li>
+                    <li style="float:right;text-align: right"><a href="{:url('user/register/index')}">立即注册</a></li>
                 {/if}
             </ul>
         </div>

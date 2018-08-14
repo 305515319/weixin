@@ -3,9 +3,50 @@ namespace app\user\controller;
 use think\Db;
 class Center extends Pub
 {
+    private $user_id;
+    public function _initialize()
+    {
+        parent::_initialize();
+        $this->user_id = session('user_auth.uid');
+        $action = $this->request->action();
+        $this->assign('action',$action);
+    }
+    /*
+     * 会员中心
+     * */
     public function index()
     {
         return view();
+    }
+    /*
+     * 微信公众号
+     * */
+    public function wx()
+    {
+        $weixin_gzh = Db::name('weixin_gzh')->where('user_id',$this->user_id)->select();
+        $this->assign('weixin_gzh',$weixin_gzh);
+        return view();
+    }
+    /*
+     * 微信小程序
+     * */
+    public function wxapp()
+    {
+        return view();
+    }
+    /*
+     * 支付宝生活号
+     * */
+    public function ali()
+    {
+        return view();
+    }
+    /*
+     * 支付宝小程序
+     * */
+    public function aliapp()
+    {
+
     }
     public function manager()
     {

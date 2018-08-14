@@ -1,10 +1,13 @@
 {include file="common/header"}
+<style type="text/css">body{background-color: #e7e8eb;}</style>
 <div class="center">
     <div class="center-left">
-        <div><a href="javascirpt:;" onclick="manager('account')">帐号管理</a></div>
-        <div><a href="javascirpt:;" onclick="manager('info')">个人信息</a></div>
-        <div><a href="javascirpt:;" onclick="manager('pass')">修改密码</a></div>
-        <div><a href="javascirpt:;" onclick="manager('pass')">积分兑换</a></div>
+        <ul>
+            <li><a href="javascirpt:;" onclick="manager('info')" id="info">个人信息</a></li>
+            <li><a href="javascirpt:;" onclick="manager('pass')" id="pass">修改密码</a></li>
+            <li><a href="javascirpt:;" onclick="manager('history')" id="history">登录历史</a></li>
+            <li><a href="javascirpt:;" onclick="manager('integral')" id="integral">积分兑换</a></li>
+        </ul>
     </div>
 
     <div class="center-right"></div>
@@ -12,13 +15,15 @@
 
 <script type="text/javascript">
     $(function(){
-       manager('account');
+       manager('info');
     });
     function manager($model){
+        $(".center-left a").removeClass("active");
+        $("#"+$model).addClass("active");
         $.post("{:url('user/center/manager')}",{"model":$model},function(res){
             $(".center-right").html(res);
         });
     }
 </script>
-
+<div class="nav100"></div>
 {include file="common/footer"}

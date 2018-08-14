@@ -1,23 +1,41 @@
 .center{
     width: 1000px;
-    height: 800px;
+    min-height: 500px;
+    overflow: hidden;
     border:1px #ccc solid;
     margin: 30px auto;
+    border-radius: 5px;
     background-color: #fff;
+    padding: 20px;
 }
 .center-left{
     float:left;
     height: 100%;
-    width:200px;
+    width:150px;
     text-align: center;
     line-height: 50px;
-    border-right: 1px #ccc solid;
+    overflow: hidden;
+}
+.center-left ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.center-left ul li a.active{
+    background-color: #0bb20c;
+    color:#fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .center-right{
     height: 100%;
-    width:800px;
+    width:auto;
     padding: 15px;
-    margin-left: 220px;
+    margin-left: 160px;
+    overflow: hidden;
+}
+.userinfo{
+    border:1px red solid;
 }
 .weixin-gzg-list{
     height: 255px;
